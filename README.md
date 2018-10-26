@@ -1,3 +1,8 @@
+## 这是一个React项目的例子
+
+### git地址：
+https://github.com/fly-liu/react-app.git
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
