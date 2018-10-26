@@ -1,0 +1,11 @@
+.itemBtn {
+    margin: 0 10px;
+}
+
+.itemBtn:first-child {
+    color: red;
+}
+
+.itemBtn:last-child {
+    color: blue;
+}

@@ -1,0 +1,17 @@
+.optHeader {
+    padding: 0 20px;
+    .headerTd:not(:first-child) {
+        padding: 0 10px;
+    }
+    .headerTd input,
+    .headerTd select,
+    .headerTd button {
+        height: 24px;
+    }
+    .headerAdd {
+        color: #fff;
+        background: #ccc;
+        width: 50px;
+        border: 1px solid #999;
+    }
+}

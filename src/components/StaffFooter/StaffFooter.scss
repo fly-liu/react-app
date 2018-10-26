@@ -1,0 +1,71 @@
+.addLayout,
+.overLay {
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    width: 100%;
+    height: 100%;
+    background: rgba(204, 204, 204, 0.6);
+    .addForm,
+    .editForm {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 600px;
+        height: 400px;
+        color: #fff;
+        background: #666;
+        h4 {
+            padding: 10px 20px;
+            text-align: left;
+        }
+        .formClose {
+            position: absolute;
+            top: 8px;
+            right: 20px;
+            color: #fff;
+            font-size: 24px;
+            transform: rotate(45deg);
+            cursor: pointer;
+        }
+        .formRow {
+            display: flex;
+            padding: 20px 0 0;
+            // vertical-align: top;
+            label {
+                display: inline-block;
+                margin-right: 20px;
+                width: 180px;
+                text-align: right;
+                vertical-align: top;
+            }
+        }
+        .formSubmit {
+            margin: 20px 0;
+            text-align: center;
+            button {
+                padding: 5px;
+                // border-radius: 4px;
+                border: 1px solid #ccc;
+                width: 20%;
+            }
+        }
+    }
+}
+
+.addLayout {}
+
+.overLay {
+    .formSubmit {
+        button {
+            margin: 0 10px;
+        }
+    }
+}
+
+.tips {
+    display: none;
+}

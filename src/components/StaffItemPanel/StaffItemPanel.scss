@@ -1,0 +1,19 @@
+.itemPanel {
+    padding-left: 20px;
+    width: 100%;
+    th,
+    td {
+        padding: 4px;
+    }
+    tr>td {
+        text-align: center;
+    }
+    tr>td,
+    tr>th {
+        width: 20%;
+    }
+    tr>th:first-child,
+    tr>td:first-child {
+        text-align: left;
+    }
+}
